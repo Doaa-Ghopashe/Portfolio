@@ -6,7 +6,7 @@ export const ProfileContext = createContext();
 export default function ProjectProvider(props) {
     const [projectdata,setProjectData] = useState([]);
     useEffect(()=>{
-      fetch("http://localhost:3000/projects")
+      fetch("https://fake-api-vsjt.onrender.com/projects")
       .then((response)=> response.json())
       .then((result)=>setProjectData(result));
     },[])
@@ -21,7 +21,7 @@ export default function ProjectProvider(props) {
 export function ProfileProvider(props) {
   const [mydata , setMyData] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:3000/profile")
+    fetch("https://fake-api-vsjt.onrender.com/profile")
     .then((response)=> response.json())
     .then((result)=>setMyData(result));
   },[])
