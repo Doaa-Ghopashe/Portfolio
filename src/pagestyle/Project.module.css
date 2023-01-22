@@ -1,0 +1,140 @@
+.ProjectBox{
+    display: flex;
+    flex-direction:column
+}
+
+.Project{
+    margin:15px 0
+}
+.ProjectImg{
+    position:relative;
+    z-index: 0;
+    cursor: pointer;
+    height: 50vh;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+}
+.ProjectImg img {
+  inset: 0;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  -webkit-transition: bottom 20s;
+  -moz-transition: bottom 20s;
+  -ms-transition: bottom 20s;
+  -o-transition: bottom 20s;
+  transition: top 20s;
+}.ProjectImg img::after{
+    content:"";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.253);
+    inset: 0;
+}
+.ProjectImg:hover img {
+      top: var(--bottom);
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+  transition: all 5s;
+}
+.overlay{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.overlay::before{
+    content: "";
+    inset: 0;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+}
+.overlay h3{
+    letter-spacing: 3.2px;
+    -webkit-text-stroke: 1px var(--theme);
+    font-size: 50px;
+    font-weight: 600;
+}
+.ProjectImg:hover .overlay{
+      visibility: visible;
+    opacity: 1;
+}
+.modal{
+    position:fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.589);
+    backdrop-filter: blur(10px);
+    z-index: 500;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    transition:all 5s;
+}
+.fadedbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    position: relative; 
+}
+.existbtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.demovideo{
+    width: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin: 30px 0;
+}   
+.btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.exitbtn{
+    background-color: red;
+    border-radius: 5px;
+    border:none;
+    color:#fff;
+    padding: 2px 8px;
+    transition:all 0.5s
+}
+.exitbtn:hover{
+    background-color: rgb(156, 1, 1);
+    transform:scale(1.1);
+}
+.codelink a , .linkbtn a{
+    font-size: 20px;
+    font-weight: 500;    
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition:all 0.5s
+}
+.linkbtn a{
+    background: white;
+    color: black !important;
+}
+.codelink a{
+    background: black;
+    color:white !important;
+}
+.codelink a:hover , .linkbtn a:hover{
+    background-color: gold;
+}

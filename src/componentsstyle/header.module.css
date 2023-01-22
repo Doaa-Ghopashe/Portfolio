@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+header{
+    background-image: url("https://img.freepik.com/free-photo/eucalyptus-silver-dollar-white-marble-banner_53876-129661.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.headercontent{
+    display: flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--transparent-layer);
+    color: var(--font-color);
+    overflow: hidden;
+}
+.headercontent p{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.headercontent p::first-letter{
+    text-transform: capitalize;
+}
+.headercontent button{
+    border: 1px solid var(--border-color);
+    color: var(--font-color);
+    font-size: 20px;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.headercontent button svg{
+    font-size: 25px;
+    animation: scrolldown 2s infinite;
+}
+@keyframes scrolldown {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@media screen and (max-width:600px) {
+    .headertext{
+        width: 80%;
+    }
+    .headertext h1{
+        font-size: 35px;
+    }
+    .jobtitle{
+        font-size: 20px;
+    }
+    .headercontent p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:400px) {
+    .headertext{
+        width: 100%;
+    }
+    .headertext h1{
+        font-size: 35px;
+    }
+    .jobtitle{
+        font-size: 18px;
+    }
+    .headercontent p{
+        font-size: 16px;
+    }
+}
