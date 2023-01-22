@@ -21,7 +21,7 @@ export default function ProjectProvider(props) {
 export function ProfileProvider(props) {
   const [mydata , setMyData] = useState([]);
   useEffect(()=>{
-    fetch("h`ttps://fake-api-vsjt.onrender.com/profile")
+    fetch("https://fake-api-vsjt.onrender.com/profile")
     .then((response)=> response.json())
     .then((result)=>setMyData(result));
   },[])

@@ -1,5 +1,5 @@
 {
-  "name": "protfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,17 +12,13 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.2.2",
     "bootstrap": "^5.3.0-alpha1",
     "jquery": "^3.6.3",
-    "jquery-ui-bundle": "^1.12.1-migrate",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
-    "sass": "^1.57.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -48,19 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/doaaadel1999/portfoliov6.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/doaaadel1999/portfoliov6/issues"
-  },
-  "homepage": "https://github.com/doaaadel1999/portfoliov6#readme"
+  }
 }

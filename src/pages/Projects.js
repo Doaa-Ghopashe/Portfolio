@@ -15,7 +15,7 @@ export default function Projects() {
     const data = useContext(ProjectsContext);
     const ImgMoveDown = (e) => {
         const root = document.documentElement;
-        root.style.setProperty("--bottom" ,"-" + (e.target.offsetHeight - 310) +"px");
+        root.style.setProperty("--bottom" ,"-" + (e.target.offsetHeight - 330) +"px");
         $(`.${styles.ProjectImg} img`).css("transition", "all " + 0.02 * e.target.offsetHeight + "s ease");
     }
 
@@ -26,7 +26,6 @@ export default function Projects() {
     }
 
     const exist = (index) => {
-        console.log(index)
         $(`#modal${index}`).toggleClass("hide")
         $(`#modal${index}`).toggleClass("show")
         $("video")[index].pause()

@@ -138,3 +138,8 @@
 .codelink a:hover , .linkbtn a:hover{
     background-color: gold;
 }
+@media screen and (max-width:992px) {
+    .demovideo{
+        width: 100%;
+    }  
+}
