@@ -1,0 +1,130 @@
+{"projects":[
+    {
+        "id":1,
+        "title":"Re-Energy",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro1.png?raw=true",
+        "link":"https://doaaadel1999.github.io/Re-Energy/Home.html",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/Re%20Energy%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Re-Energy-img.png?raw=true",
+        "category":["HTML" , "CSS" , "JavaScript" , "Bootstrap" , "JQuery"],
+        "srccodelink":"https://github.com/doaaadel1999/Re-Energy.git",
+        "startdate":"11/22/2022",
+        "enddate":"12/22/2022"
+    },
+    {
+        "id":2,
+        "title":"Buy Online",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro4.png?raw=true",
+        "link":"https://doaaadel1999.github.io/BuyOnline/Index.html",
+        "demolink":"",
+        "image":"",
+        "category":["HTML" , "CSS" , "Bootstrap"],
+        "srccodelink":"",
+        "startdate":"12/25/2022",
+        "enddate":"12/25/2022"
+    },
+    {
+        "id":3,
+        "title":"Calculator",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro2.png?raw=true",
+        "link":"https://calculator-falsher-app.surge.sh/",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/Calculator%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Calculator-img.png?raw=true",
+        "category":["HTML" , "CSS" , "JavaScript" , "Bootstrap" , "JQuery" , "React"],
+        "srccodelink":"",
+        "startdate":"1/5/2023",
+        "enddate":"1/5/2023"
+    },
+    {
+        "id":4,
+        "title":"To-Do List",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro3.png?raw=true",
+        "link":"https://doaaadel1999.github.io/To-Do_List/",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/ToDo-List%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/todo-img.png?raw=true",
+        "category":["HTML" , "CSS" , "JavaScript" , "Bootstrap" , "JQuery"],
+        "srccodelink":"https://github.com/doaaadel1999/To-Do_List.git",
+        "startdate":"10/28/2022",
+        "enddate":"10/30/2022"
+    },
+    {
+        "id":5,
+        "title":"quran playlist",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro5.png?raw=true",
+        "link":"https://Quranplaylist.surge.sh",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/Quran-Playlist%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/quran-img.png?raw=true",
+        "category":["HTML" , "CSS" , "JavaScript" , "Bootstrap" , "JQuery" , "React"],
+        "srccodelink":"",
+        "startdate":"12/27/2022",
+        "enddate":"1/2/2023"
+    },
+    {
+        "id":6,
+        "title":"construct",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro7.png?raw=true",
+        "link":"https://doaaadel1999.github.io/Construct/",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/Construct%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Contruct-img.png?raw=true",
+        "category":["HTML" , "CSS" , "Bootstrap"],
+        "srccodelink":"https://github.com/doaaadel1999/Construct",
+        "startdate":"10/2/2022",
+        "enddate":"10/6/2022"
+    },
+    {
+        "id":7,
+        "title":"Electronic",
+        "screenshoot":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Pro6.png?raw=true",
+        "link":"https://doaaadel1999.github.io/Electronics/",
+        "demolink":"https://doaaadel1999.github.io/Store/Videos/Electronic%20Demo.mp4",
+        "image":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Electronics-img.png?raw=true",
+        "category":["HTML" , "CSS" , "Bootstrap"],
+        "srccodelink":"https://github.com/doaaadel1999/Electronics",
+        "startdate":"10/15/2022",
+        "enddate":"10/18/2022"
+    }
+  ],
+  "profile":{
+    "imgurl":"https://github.com/doaaadel1999/Store/blob/main/Imgs/Img1.jpg?raw=true",
+    "firstname":"Doaa",
+    "phonenumber":"01025427257",
+    "emailaddress":"doaaadel252@yahoo.com",
+    "behanceurl":"https://www.behance.net/dodoadel2",
+    "githuburl":"https://github.com/doaaadel1999",
+    "lnkdinurl":"https://www.linkedin.com/in/doaa-ghopashe-676806195/",
+    "lastname":"Ghopashe",
+    "birthdate":"11/10/1999",
+    "jobtitle":"frontend developer",
+    "birthplace":"egypt, cairo",
+    "educationstatus":"bachelor degree",
+    "graduationyear":"2022",
+    "degree":"verygood",
+    "gpa":"3.39",
+    "languages":["Arabic (native language)" , "English (intermediate)"],
+    "skills":[{"HTML":[]} , {"CSS":["flexbox","grid"]} ,{"JavaScript":["API", "AJAX" , "JSON" , "DOM" , "BOM" , "ES6"]}, {"React":["Redux" , "Hooks"]}, {"Bootstrap":[]},{"SQL":[]} , {"JQUERY":[]} , {"C++":[]} , {"GitHub":["Git"]}],
+    "hobbies":["watching tv" , "cooking" , "reading" , "design"],
+    "skill highlights":["project management", "creative design" , "service focused" , "problem solver","strong decision maker" , "innovative"],
+    "certificates":[
+        {   
+            "title" : "javascript from coursera",
+            "url":"https://coursera.org/share/c742c846bce2023a128a84d382434e43",
+            "img":"https://github.com/doaaadel1999/Store/blob/main/Imgs/cert3.png?raw=true"
+        },
+        {
+            "title" : "sql from sololearn",
+            "url":"https://www.sololearn.com/certificates/CT-TZAMBLBM",
+            "img":"https://github.com/doaaadel1999/Store/blob/main/Imgs/cert4.png?raw=true"
+        },
+        {
+            "title" : "php from sololearn",
+            "url":"https://www.sololearn.com/certificates/CT-3SUEA8EX",
+            "img":"https://github.com/doaaadel1999/Store/blob/main/Imgs/cert1.png?raw=true"
+        },
+        {
+            "title" : "javascript from mharatech",
+            "url":"https://drive.google.com/file/d/1kwFy61CY5q0UdvcOccFGiSqJokUvDRp8/view?usp=sharing",
+            "img":"https://github.com/doaaadel1999/Store/blob/main/Imgs/cert2.png?raw=true"
+        }
+    ]
+  }
+}

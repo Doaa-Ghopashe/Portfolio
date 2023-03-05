@@ -1,0 +1,46 @@
+.Categories{
+    width: 35%;
+    margin: 40px auto 0 auto;
+}
+.category{
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.category::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: white;
+    transition: all 1s;
+}
+.category:hover::after{
+    width: 100%;
+}
+.Categories ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:1024px) {
+    .Categories{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .Categories {
+        width: 80%;
+    }
+    .Categories ul {
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width:400px) {
+    .Categories {
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.contactlinks{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 200px;
+    z-index: 100;
+}
+.contactlinks li{
+    background-color: var(--theme);
+    margin-bottom: 15px;
+    border-radius: 40px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 217, 4, 0.667);
+    transition: all 0.8s
+}
+.contactlinks li:hover{
+    transform: scale(1.2);
+}
+.contactlinks a{
+    color: var(--font-color);
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .contactlinks ul{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:400px) {
+    .contactlinks li {
+        padding: 3px 6px;
+    }
+    .contactlinks ul{
+        padding-left: 5px;
+    }
+}
